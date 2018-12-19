@@ -1,0 +1,6 @@
+.env
+.idea
+virtual
+*.sqlite3
+*pyc
+__pycache__
