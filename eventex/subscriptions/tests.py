@@ -38,3 +38,5 @@ class SubscribeTest(TestCase):
         """form must have 4 field """
         form = self.response.context['form']
         self.assertSequenceEqual(['name', 'cpf', 'email', 'phone'], list(form.fields))
+
+

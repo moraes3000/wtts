@@ -25,4 +25,5 @@ urlpatterns = [
     path('', eventex.core.views.home),
 
     path('inscricao/', subscribe),
+
 ]
